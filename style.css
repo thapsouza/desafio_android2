@@ -1,20 +1,79 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: Bebas;
+    src: url('BebasNeue-Regular.otf') format(opentype);
+}
+@font-face {
+    font-family: Idroid;
+    src: url(idroid.otf)format(opentype);
+}
+
 body{
     background-color:#c5ebd6;
+    margin: 0%;
     
 }
+#titulo_principal{
+    font-family: Idroid;
+    font-size: 40px;
+    color: #063d1e;
+
+}
 header{
+    font-family: Bebas;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(211, 211, 211, 0.185);
+    text-align: center;
     background-image: linear-gradient(to bottom, #3ddc84, #2fa866, #063d1e);
-    margin: -10px;
     padding: 10px;
+}
+nav {
+    text-align: left;
+      
+}
+nav > a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    color: #3ddc84;
+    text-decoration: none;
+}
+p{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo_secundario{
+    background-image: linear-gradient( to right, #c5ebd6, white);
+    margin: 15px;
+    font-family: Idroid;
+    color: #063d1e;
 }
 main{
     background-color: white;
+    text-align: justify;
+    padding: 10px;
     margin: 80px;
     margin-top: 0px;
-    padding: 10px;
-    
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.247);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h3{
+    color: white;
+    background-color: #2fa866;
+    text-align: left;
+    margin: auto;
+}
+section > aside{
+    background-color:#c5ebd6;
+    text-align: justify;
+    margin: aut;
+    border-radius: 10px;
+
 }
 footer{
     background-color: #063d1e;
