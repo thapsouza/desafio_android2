@@ -46,6 +46,22 @@ p{
     text-indent: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.video{
+    position: relative;
+    background-color: #063d1e;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px ;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
 .titulo_secundario{
     background-image: linear-gradient( to right, #c5ebd6, white);
     margin: 15px;
@@ -73,7 +89,11 @@ section > aside{
     text-align: justify;
     margin: aut;
     border-radius: 10px;
-
+}
+ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
 }
 footer{
     background-color: #063d1e;
